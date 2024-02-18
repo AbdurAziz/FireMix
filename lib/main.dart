@@ -6,10 +6,10 @@ import 'register.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: MyLogin(),
+    home: LogIn(),
     routes: {
-      'register': (context) => MyRegister(),
-      'login': (context) => MyLogin(),
+      'register': (context) => const SignUp(),
+      'login': (context) => const LogIn(),
     },
   ));
 }
